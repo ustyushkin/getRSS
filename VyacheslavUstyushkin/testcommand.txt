@@ -1,0 +1,21 @@
+yustas@inc ~/temp/VyacheslavUstyushkin $ php src/console.php csv:sample http://feeds.nationalgeographic.com/ng/News/News_Main rss1.csv
+yustas@inc ~/temp/VyacheslavUstyushkin $ php src/console.php csv:sample http://feeds.nationalgeographic.com/ng/News/News_Main rss2.csv
+yustas@inc ~/temp/VyacheslavUstyushkin $ php src/console.php csv:extended http://feeds.nationalgeographic.com/ng/News/News_Main rss3.csv
+yustas@inc ~/temp/VyacheslavUstyushkin $ php src/console.php csv:extended http://feeds.nationalgeographic.com/ng/News/News_Main rss3.csv
+yustas@inc ~/temp/VyacheslavUstyushkin $ phpunit tests/paramsTest
+PHPUnit 6.4.3 by Sebastian Bergmann and contributors.
+
+.................                                                 17 / 17 (100%)
+
+Time: 167 ms, Memory: 8.00MB
+
+OK (17 tests, 17 assertions)
+yustas@inc ~/temp/VyacheslavUstyushkin $ phpunit tests/rssClassTest
+PHPUnit 6.4.3 by Sebastian Bergmann and contributors.
+
+.....                                                               5 / 5 (100%)
+
+Time: 575 ms, Memory: 8.00MB
+
+OK (5 tests, 5 assertions)
+yustas@inc ~/temp/VyacheslavUstyushkin $
