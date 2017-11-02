@@ -33,7 +33,6 @@ class rssClass
 	/**
 	* loadRSS
 	*
-	* @param string $phrase Phrase to return
 	* @return array with rss data
 	*/
 	public function loadRSS()
