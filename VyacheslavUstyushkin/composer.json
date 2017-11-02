@@ -1,0 +1,17 @@
+{
+	"name": "VyacheslavUstyushkin/getRSS",
+	"description": "Test work to get RSS",
+	"keywords": ["rss"],
+	"homepage": "https://github.com/SammyK/package-skeleton",
+	"authors": [
+        {
+            "name": "Ustyushkin Vyacheslav",
+            "email": "ustyushkin.vyacheslav@gmail.com",
+            "role": "Developer"
+        }
+	],
+    "require": {
+        "php":">=5.4.0",
+        "phpunit/phpunit": "6.4.*"
+    }
+}
