@@ -62,7 +62,8 @@ class params implements iParams
 	 */
 	public function verifyURL($value)
 	{
-		if (filter_var($value, FILTER_VALIDATE_URL) === FALSE) {
+		if (filter_var($value, FILTER_VALIDATE_URL) === FALSE) 
+		{
 			return false;
 		}
 		return true;
@@ -77,9 +78,9 @@ class params implements iParams
 	public function verifyFileName($value)
 	{
 		if (!preg_match('/^[a-zA-Z0-9-]+\.csv$/', $value))
-        {
-           return false;
-        }
+        	{
+           		return false;
+        	}
 		return true;
 	}
 
